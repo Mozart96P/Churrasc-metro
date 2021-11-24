@@ -1,0 +1,44 @@
+*{
+                margin: 0;
+                padding: 0;
+}
+#container{
+                width: 500px;
+                height: 695px;
+                background-color: tomato;
+}
+h1{
+                text-align: center;
+                padding-top: 10px;
+                font-family: bebas neue;
+                font-weight: normal;
+                font-size: 3em;
+                color: yellow;
+                text-shadow: 2px 2px 2px black;
+}
+#container_informacoes{
+                text-align: center;
+                margin-top: 40px;
+}
+#container_informacoes > input{
+                width: 250px;
+                padding: 5px;
+                margin-bottom: 15px ;
+                font-size: 1.1em;
+}
+button{
+                padding: 5px;
+                font-weight: bold;
+}
+
+#resultado {
+                text-align: center;
+                margin-top: 35px;
+}
+#resultado > p {
+                margin-bottom: 25px;
+                font-family: helvetica, sans-serif;
+                font-size: 1.5em;
+}
+
+
