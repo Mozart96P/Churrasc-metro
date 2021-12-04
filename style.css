@@ -2,9 +2,7 @@
                 margin: 0;
                 padding: 0;
 }
-body{
-                background-color: #F5D02F;
-}
+
 main{
                 width: 1320px;
                 padding-top: 20px;
@@ -40,13 +38,14 @@ h1{
 button{
                 padding: 5px;
                 font-weight: bold;
-                background-color:#20A8A0 ;
+                color:#20A8A0 ;
 }
 
 #resultado {
                 
                 margin-top: 35px;
                 margin-left: 150px;
+                color: #47F5EA;
 
 }
 #resultado > p {
@@ -64,7 +63,7 @@ picture > img{
 }
 article{
                 padding: 15px;
-                background-color: #F533D6;
+                background-color: #F5D02F;
                 border-bottom-left-radius: 7px;
                 border-bottom-right-radius: 7px;
                 
