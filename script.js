@@ -24,9 +24,10 @@ function calcular(){
                 console.log(totalbebidas);
 
                 resultado.innerHTML = `<h4>VOCÊ PRECISARÁ DE</h4>`
-                resultado.innerHTML += `<p>${totalcarne / 1000} Kg de carne</p>`
-                resultado.innerHTML += `<p>${Math.ceil(totalbreja / 355)} latas de cerveja</p>`
-                resultado.innerHTML += `<p>${Math.ceil(totalbebidas / 2000)} Pets 2Lt de bebidas</p>`
+                resultado.innerHTML += `<img src="imagens/carne03.png"><p>${totalcarne / 1000} Kg de carne</p>`
+                resultado.innerHTML += `<img src="imagens/breja3.png"><p>${Math.ceil(totalbreja / 355)} latas de cerveja</p>`
+                resultado.innerHTML += `<img src="imagens/agua06.png"><p>${Math.ceil(totalbebidas / 2000)} Pets 2Lt de bebidas</p>`
+                resultado.innerHTML += `<h4>Aproveite!</h4>`
 } 
 
 function bebidaPP(tempo){

@@ -3,7 +3,9 @@
                 padding: 0;
 }
 body{
-                background-image: url(imagens/fundo2.0.png);
+                background-image: url(imagens/fundobody.png);
+                background-repeat: no-repeat;
+                background-size: cover;
 }
 main{
                 display: flex;
@@ -18,6 +20,7 @@ main{
 h1{
                 text-align: center;
                 padding-top: 10px;
+                min-width: 320px;
                 font-family: bebas neue;
                 font-weight: normal;
                 font-size: 4.5em;
@@ -88,8 +91,11 @@ button:hover{
                 font-size: 2em;
 }
 #resultado > p {
-                margin-top: 60px;
                 font-family: helvetica, sans-serif;
                 font-size: 1.5em;
                 color: white;
+}
+#resultado > img{
+                width: 60px;
+                margin-top: 20px;
 }
