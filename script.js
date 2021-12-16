@@ -23,8 +23,8 @@ function calcular(){
                 let totalbebidas = bebidaPP(tempo) * adultos + (bebidaPP(tempo) /2 * criancas);
                 console.log(totalbebidas);
 
-
-                resultado.innerHTML = `<p>${totalcarne / 1000} Kg de carne</p>`
+                resultado.innerHTML = `<h4>VOCÊ PRECISARÁ DE</h4>`
+                resultado.innerHTML += `<p>${totalcarne / 1000} Kg de carne</p>`
                 resultado.innerHTML += `<p>${Math.ceil(totalbreja / 355)} latas de cerveja</p>`
                 resultado.innerHTML += `<p>${Math.ceil(totalbebidas / 2000)} Pets 2Lt de bebidas</p>`
 } 
