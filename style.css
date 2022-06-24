@@ -1,0 +1,27 @@
+*{
+     margin: 0;
+     padding: 0;           
+}
+
+#espaco-logo{
+              height: 100px;  
+              background-color: #e9e9e7;  
+}
+#logo{
+              width:560px;
+              height: 220px;
+              margin: auto;  
+              background-color: #e9e9e7;  
+              display: flex;
+              flex-direction:column ;
+              align-items: center;
+              clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+#img-logo{
+              width: 105px;      
+}
+
+#titulo-logo{
+              text-align: center;  
+              font-size: 24px;
+}
