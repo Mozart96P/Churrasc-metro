@@ -2,7 +2,7 @@
      margin: 0;
      padding: 0;           
 }
-
+/* ESTILIZAÇÃO DO CABEÇALHO */
 #espaco-logo{
               height: 100px;  
               background-color: #e9e9e7;  
@@ -24,4 +24,29 @@
 #titulo-logo{
               text-align: center;  
               font-size: 24px;
+              font-family: 'Lobster', cursive;
+              color:#E5784F;
+}
+
+/* ESTILIZAÇÃO DO CONTEÚDO PRINCIPAL MAIN */
+#conteudo-principal{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              margin-top: 110px;
+}
+#texto-pagina{
+     width: 500px;
+}
+.paragrafos{
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     line-height: 24px;
+}
+.paragrafo2{
+     margin-top: 15px;
+}
+#espaco-churrascometro{
+     width: 400px;
+     background-color: #E5784F;
 }
