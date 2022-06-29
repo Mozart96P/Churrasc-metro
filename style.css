@@ -3,59 +3,55 @@
      padding: 0;           
 }
 body{
-     background-image: url(imagens/imgfundo.jpeg);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
+     max-width: 1300px;
+     margin: auto;
+     margin-top: 5px;
+     background-color: #e9e9e7;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
 }
-/* ESTILIZAÇÃO DO CABEÇALHO */
-#espaco-logo{
-              height: 100px;  
-              background-color: #e9e9e7;  
+#conteudo-principal{
+     width: 900px;
 }
 #logo{
-              width:560px;
-              height: 220px;
-              margin: auto;  
-              background-color: #e9e9e7;  
-              display: flex;
-              flex-direction:column ;
-              align-items: center;
-              clip-path: polygon(0 0, 50% 100%, 100% 0);
+     width:120px;
+     height: 200px;
+     margin: auto;  
+     background-color: #e9e9e7;  
+     display: flex;
+     flex-direction:column ;
+     align-items: center;
 }
 #img-logo{
-              width: 105px;      
+     width: 105px;      
 }
 
 #titulo-logo{
-              text-align: center;  
-              font-size: 24px;
-              font-family: 'Lobster', cursive;
-              color:#E5784F;
-}
-
-/* ESTILIZAÇÃO DO CONTEÚDO PRINCIPAL MAIN */
-#conteudo-principal{
-              display: flex;
-              flex-direction: row;
-              flex-wrap: wrap;
-              justify-content: space-around;
-              margin-top: 110px;
+     text-align: center;  
+     font-size: 22px;
+     font-family: 'Lobster', cursive;
+     color:#E5784F;
 }
 #texto-pagina{
-     width: 500px;
+     width: 650px;
+     margin: auto;
 }
 .paragrafos{
-     font-size: 18px;
+     font-size: 16px;
      font-family: 'Roboto', sans-serif;
      font-weight: 500;
      line-height: 24px;
-     color:white ;
-     background-color: rgba(0, 0, 0, 0.753);
      padding: 5px;
 }
 .paragrafo2{
      margin-top: 15px;
+}
+#img-pontochurrasco{
+     width: 210px;
+     display: block;
+     margin: auto;
 }
 #espaco-churrascometro{
      width: 350px;
