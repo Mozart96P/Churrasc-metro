@@ -16,7 +16,13 @@ let inputResultado = document.getElementById("resultado");
                 let tempo = inputTempo;
 
                 let TotalCarne = carnePP(tempo) *adultos + (carnePP(tempo) / 2 *criancas);
-                console.log(TotalCarne);
+                let TotalCerveja = cervejaPP(tempo) *adultos;
+                let TotalBebidas = bebidaPP(tempo) *adultos + (carnePP(tempo) / 2 *criancas);
+
+                resultado.innerHTML = `<p>${TotalCarne / 1000}Kg de carne</p> <img class="imagensresultado" src="imagens/carne03.png">`
+                resultado.innerHTML += `<p>${Math.ceil(TotalCerveja / 355)}Latas de cerveja</p> <img class="imagensresultado" src="imagens/breja3.png">`
+                resultado.innerHTML += `<p>${Math.ceil(TotalBebidas / 2000)}Pet's 2 Lt de bebidas</p> <img class="imagensresultado" src="imagens/agua06.png">`
+                resultado.innerHTML += `<p id="aproveite">Aproveite !</p>`
 }
 
 function carnePP(tempo){
@@ -25,4 +31,18 @@ function carnePP(tempo){
            }else {
                 return 400;
            }
+}
+function cervejaPP(tempo){
+     if(tempo >= 6){
+     return 2000;
+}else {
+     return 1200;
+}
+}
+function bebidaPP(tempo){
+     if(tempo >= 6){
+     return 1500;
+}else {
+     return 1000;
+}
 }
