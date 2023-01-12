@@ -9,27 +9,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main id="conteudo-principal">
-    <div id="logo">
-      <img id="img-logo" src="imagens/novalogo-churrasco.jpeg" alt="Logo-Churrascaria">
-      <h1 id="titulo-logo">Açougue <br> Churrasco <br> Raiz</h1>
-    </div>
-    <article id="texto-pagina">
-        <p class="paragrafos paragrafo1">Aqui no Açougue Churrasco Raiz você encontra uma ampla variedade de carnes das mais altas qualidades, carvões, temperos, saladas e ainda mais acompanhamentos para fazer do seu churrasco o melhor. Também contamos com muitas opções em cervejas, destilados, refrigerantes e água. Sem contar que também temos acessórios como grills, espetos e demais acessórios. Tudo isso porque queremos ser referência quando o assunto é a qualidade do churrasco.</p>
-        <p class="paragrafos paragrafo2">Experimente ainda o nosso CHURRASCÔMETRO que concede um cálculo de referência do quanto de carne, cerveja e bebidas (refrigerantes/àgua) você precisará para o seu churrasco dependendo do número de pessoas que haver e o tempo que durará. <br> APROVEITE !</p>
-    </article> 
-    <img id="img-pontochurrasco" src="imagens/newimg.png" alt="MarcaRegistrada">
-  </main>
-  <div id="espaco-churrascometro">
-    <h3 id="titulo-churrascometro">Churrascômetro</h3>
-    <label class="titulo-campo" for="">Adultos</label>
-    <input id="adultos" class="campo-dados" type="number">
-    <label class="titulo-campo" for="">Crianças</label>
-    <input id="criancas" class="campo-dados" type="number">
-    <label class="titulo-campo" for="">Tempo(h)</label>
-    <input id="tempo" class="campo-dados" type="number">
-    <button id="btncalculo" onclick="calcular()">Calcular</button>
-    <div id="resultado"></div>
+  <div id="containerprincipal">
+      <main id="conteudo-principal">
+        <div id="texto-pagina">
+            <p class="paragrafo">Projeto apresentado no curso Desenvolvimento web fullstack para desenvolver. A proposta é desenvolver um programa que faz o cálculo de quanta quantidade de carne, qual a quantidade de cerveja e de bebidas não alcóolicas é o ideal comprar avaliando os seguintes requizitos:</p>
+            <ul id="lista">
+              <li>Quantidade de adultos</li>
+              <li>Quantidade de crianças</li>
+              <li>Tempo de duração</li>
+              <li>Carne - 400gr por pessoa se mais de 6 horas é 650gr</li>
+              <li>Cerveja - 1200 ml por pessoa se mais de 6 horas é 2000ml</li>
+              <li>Refrigerante/agua - 1000ml por pessoa se mais de 6 horas 1500ml</li>
+              <li>crianças valem pela metade de todos os valores exceto (obviamente) de bebidas alcóolicas</li>
+            </ul>
+        </div> 
+        <img id="img-pontochurrasco" src="imagens/newimg.png" alt="MarcaRegistrada">
+      </main>
+      <div id="espaco-churrascometro">
+        <h3 id="titulo-churrascometro">Churrascômetro</h3>
+        <label class="titulo-campo" for="">Adultos</label>
+        <input id="adultos" class="campo-dados" type="number">
+        <label class="titulo-campo" for="">Crianças</label>
+        <input id="criancas" class="campo-dados" type="number">
+        <label class="titulo-campo" for="">Tempo(h)</label>
+        <input id="tempo" class="campo-dados" type="number">
+        <button id="btncalculo" onclick="calcular()">Calcular</button>
+        <div id="resultado"></div>
+      </div>
   </div>
   <script src="script.js"></script>
 </body>
