@@ -2,61 +2,77 @@
      margin: 0;
      padding: 0;           
 }
-#containerprincipal{
-     max-width: 1000px;
-     display: flex;
+body{
+     width: 100vw;
+     height: 100vh;
+     /* display: flex;
      flex-direction: row;
-     flex-wrap: wrap;
-     margin: auto;
+     align-items: center; */
+     background-image: url(imagens/conceito-de-diversao-de-festa-de-verao-churrasco-grupo-de-jovens-amigos-de-pessoas-positivas-fazendo-churrasco-de-salsichas-assadas-e-bebendo-cerveja-se-divertindo-juntos-ilustracao-vetorial_198530-1132.webp);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+#containerprincipal{
+     max-width: 400px;
+     display: flex;
+     flex-direction: column;
 }
 #conteudo-principal{
-     width: 700px;
-     background-color: #000000;
+     max-width: 450px;
+     min-width: 320px;
+     background-color: #d4d4d3;
 }
 #texto-pagina{
-     max-width: 500px;
+     max-width: 400px;
      min-width: 320px;
      margin: auto;
      padding-left: 10px;
      padding-right: 5px;
-     color: #d6d4d4;
+     color: #000000;
+}
+#titulo-churrascometro{
+     margin-top: 10px;
+     font-size: 24px;
+     font-family: 'Lobster', cursive;
+     font-weight: 500;
 }
 .paragrafo{
      font-family: helvetica;
-     margin-top: 30px;
-     margin-bottom: 30px;
+     font-size: 14px;
+     margin-top: 15px;
+     margin-bottom: 15px;
      line-height: 120%;
 }
 #lista{
-     margin-bottom: 30px;
+     margin-bottom: 15px;
      font-family: helvetica;
+     font-size: 14px;
      list-style-type: square;
      list-style-position: inside;
 }
-#img-pontochurrasco{
-     width: 210px;
-     display: block;
-     margin: auto;
-}
 #espaco-churrascometro{
-     width: 230px;
-     background-color: #E5784F;
+     width: 100%;
+     background-color: #d4d4d3;
+}
+#espacoinseririnformacoes{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+.espacos-campos{
      display: flex;
      flex-direction: column;
      align-items: center;
 }
-#titulo-churrascometro{
-     margin-top: 10px;
-     font-size: 28px;
-     font-family: 'Lobster', cursive;
-}
 .titulo-campo{
-     font-size:18px ;
+     font-size:16px ;
      font-family: 'Roboto', sans-serif;
-     color: white;
+     color: #000000;
      margin-top: 10px;
 }
 .campo-dados{
+     width: 60px;
      padding: 3px;
      text-align: center;
      font-family: sans-serif;
@@ -64,10 +80,11 @@
 }
 
 #btncalculo{
+     width: 55px;
+     height: 20px;
+     padding:5px;
      font-family: 'Roboto', sans-serif;
-     font-size: 16px;
-     padding: 2px 5px 2px 5px;
-     margin-top: 15px;
+     font-size: 14px;
 }
 #resultado{
      margin-top: 60px;
@@ -76,20 +93,4 @@
 }
 .imagensresultado{
      width: 50px;
-}
-#aproveite{
-     margin-top: 20px;
-     font-family: 'Lobster', cursive;
-}
-@media screen and(max-width: 400px){
-     body{
-          background-color: #000000;
-     }
-     #espaco-churrascometro{
-          width: 230px;
-          background-color: #E5784F;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-     }
 }

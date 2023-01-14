@@ -12,7 +12,8 @@
   <div id="containerprincipal">
       <main id="conteudo-principal">
         <div id="texto-pagina">
-            <p class="paragrafo">Projeto apresentado no curso Desenvolvimento web fullstack para desenvolver. A proposta é desenvolver um programa que faz o cálculo de quanta quantidade de carne, qual a quantidade de cerveja e de bebidas não alcóolicas é o ideal comprar avaliando os seguintes requizitos:</p>
+            <h3 id="titulo-churrascometro">Churrascômetro</h3>
+            <p class="paragrafo">Projeto apresentado no curso Desenvolvimento web fullstack para desenvolver. A proposta é desenvolver um programa que faz o cálculo da quantidade de carne,de cerveja e de bebidas não alcóolicas que é ideal comprar avaliando os seguintes requizitos:</p>
             <ul id="lista">
               <li>Quantidade de adultos</li>
               <li>Quantidade de crianças</li>
@@ -23,17 +24,23 @@
               <li>crianças valem pela metade de todos os valores exceto (obviamente) de bebidas alcóolicas</li>
             </ul>
         </div> 
-        <img id="img-pontochurrasco" src="imagens/newimg.png" alt="MarcaRegistrada">
       </main>
       <div id="espaco-churrascometro">
-        <h3 id="titulo-churrascometro">Churrascômetro</h3>
-        <label class="titulo-campo" for="">Adultos</label>
-        <input id="adultos" class="campo-dados" type="number">
-        <label class="titulo-campo" for="">Crianças</label>
-        <input id="criancas" class="campo-dados" type="number">
-        <label class="titulo-campo" for="">Tempo(h)</label>
-        <input id="tempo" class="campo-dados" type="number">
-        <button id="btncalculo" onclick="calcular()">Calcular</button>
+        <div id="espacoinseririnformacoes">
+          <div class="espacos-campos">
+            <label class="titulo-campo" for="">Adultos</label>
+            <input id="adultos" class="campo-dados" type="number">
+          </div>
+          <div class="espacos-campos">
+            <label class="titulo-campo" for="">Crianças</label>
+            <input id="criancas" class="campo-dados" type="number">
+          </div>
+          <div class="espacos-campos">
+            <label class="titulo-campo" for="">Tempo(h)</label>
+            <input id="tempo" class="campo-dados" type="number">
+          </div>
+          <button id="btncalculo" onclick="calcular()">Calcular</button>
+        </div>
         <div id="resultado"></div>
       </div>
   </div>

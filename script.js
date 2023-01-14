@@ -22,7 +22,6 @@ let inputResultado = document.getElementById("resultado");
                 resultado.innerHTML = `<p>${TotalCarne / 1000}Kg de carne</p> <img class="imagensresultado" src="imagens/carne03.png">`
                 resultado.innerHTML += `<p>${Math.ceil(TotalCerveja / 355)}Latas de cerveja</p> <img class="imagensresultado" src="imagens/breja3.png">`
                 resultado.innerHTML += `<p>${Math.ceil(TotalBebidas / 2000)}Pet's 2 Lt de bebidas</p> <img class="imagensresultado" src="imagens/agua06.png">`
-                resultado.innerHTML += `<p id="aproveite">Aproveite !</p>`
 }
 
 function carnePP(tempo){
