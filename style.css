@@ -5,13 +5,12 @@
 body{
      width: 100vw;
      height: 100vh;
-     /* display: flex;
+     display: flex;
      flex-direction: row;
-     align-items: center; */
-     background-image: url(imagens/conceito-de-diversao-de-festa-de-verao-churrasco-grupo-de-jovens-amigos-de-pessoas-positivas-fazendo-churrasco-de-salsichas-assadas-e-bebendo-cerveja-se-divertindo-juntos-ilustracao-vetorial_198530-1132.webp);
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
+     justify-content: center;
+     align-items: center;
+     background-image: url(imagens/istockphoto-1194177924-1024x1024.jpg);
+     background-position: cover;
 }
 #containerprincipal{
      max-width: 400px;
@@ -19,9 +18,10 @@ body{
      flex-direction: column;
 }
 #conteudo-principal{
-     max-width: 450px;
+     max-width: 400px;
      min-width: 320px;
-     background-color: #d4d4d3;
+     background-color: #ebaf08;
+     border-top-left-radius: 10px;
 }
 #texto-pagina{
      max-width: 400px;
@@ -36,6 +36,8 @@ body{
      font-size: 24px;
      font-family: 'Lobster', cursive;
      font-weight: 500;
+     color: #ffffff;
+     text-shadow: 2px 1px 3px #000000;
 }
 .paragrafo{
      font-family: helvetica;
@@ -53,12 +55,21 @@ body{
 }
 #espaco-churrascometro{
      width: 100%;
-     background-color: #d4d4d3;
+     background-color: #ebaf08;
+     border-bottom-right-radius: 10px;
+}
+#titulocalc{
+     margin-top: 10px;
+     margin-left: 10px;
+     font-size: 20px;
+     font-family: helvetica;
+     font-weight: 500;
 }
 #espacoinseririnformacoes{
      display: flex;
      flex-direction: row;
      justify-content: space-around;
+     align-items: center;
 }
 .espacos-campos{
      display: flex;
@@ -80,17 +91,24 @@ body{
 }
 
 #btncalculo{
-     width: 55px;
-     height: 20px;
-     padding:5px;
+     width: 70px;
+     height: 25px;
+     border-radius: 10px;
+     border-style: none;
+     background-color: #000000;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+     cursor: pointer;
+     color: #ffffff;
      font-family: 'Roboto', sans-serif;
      font-size: 14px;
 }
 #resultado{
-     margin-top: 60px;
+     margin-top: 30px;
+     margin-bottom: 15px;
      text-align: center;
      font-family: sans-serif;
 }
 .imagensresultado{
      width: 50px;
 }
+
